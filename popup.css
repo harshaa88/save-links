@@ -1,0 +1,60 @@
+body {
+  font-family: 'Arial', sans-serif;
+  width: 300px;
+  padding: 10px;
+  margin: 0;
+}
+
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+#links-container {
+  margin-bottom: 10px;
+}
+
+.link-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 70%;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  width: 80px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:active {
+  background-color: #3c903c;
+}
+
+#add-link,
+#save-links {
+  margin-bottom: 10px;
+}
